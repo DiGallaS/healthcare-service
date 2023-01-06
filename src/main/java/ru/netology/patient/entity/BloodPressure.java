@@ -16,6 +16,9 @@ public class BloodPressure {
         this.low = low;
     }
 
+    public BloodPressure(String high, String low) {
+    }
+
     public int getHigh() {
         return high;
     }
